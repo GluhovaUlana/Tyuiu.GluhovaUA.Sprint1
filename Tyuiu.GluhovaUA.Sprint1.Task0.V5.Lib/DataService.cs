@@ -10,7 +10,7 @@ namespace Tyuiu.GluhovaUA.Sprint1.Task0.V5.Lib
     {
         public double Calculate()
         {
-            return 10 / (2 + 3);
+            return (1 + 2) * (1 + 9 / 3);
         }
     }
 }

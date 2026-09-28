@@ -11,7 +11,7 @@ namespace Tyuiu.GluhovaUA.Sprint1.Task0.V5.Test
         {
             DataService ds = new DataService();
             var res = ds.Calculate();
-            Assert.AreEqual(2, res);
+            Assert.AreEqual(12, res);
         }
     }
 }
