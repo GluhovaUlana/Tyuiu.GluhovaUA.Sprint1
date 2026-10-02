@@ -14,7 +14,7 @@ namespace Tyuiu.GluhovaUA.Sprint1.Task3.V8.Test
             double z =30.0;
             double wait = 2541.100;
             var res = ds.IncomeAmount(x, y, z);
-            Assert.AreEqual(wait,res, 0.01);
+            Assert.AreEqual(wait,res, 0.001);
         }
     }
 }
