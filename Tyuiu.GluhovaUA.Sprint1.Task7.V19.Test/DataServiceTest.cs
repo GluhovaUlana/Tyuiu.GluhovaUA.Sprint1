@@ -19,5 +19,3 @@ namespace Tyuiu.GluhovaUA.Sprint1.Task_7.V19.Test
         }
     }
 }
-
-

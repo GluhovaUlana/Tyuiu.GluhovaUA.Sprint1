@@ -15,8 +15,8 @@ namespace Tyuiu.GluhovaUA.Sprint1.Task7.V19
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-            Console.WriteLine("* Задание #6                                                              *");
-            Console.WriteLine("* Вариант #9                                                              *");
+            Console.WriteLine("* Задание #7                                                              *");
+            Console.WriteLine("* Вариант #19                                                              *");
             Console.WriteLine("* Выполнила: Глухова У. А.| ПИНб-26-1                                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
