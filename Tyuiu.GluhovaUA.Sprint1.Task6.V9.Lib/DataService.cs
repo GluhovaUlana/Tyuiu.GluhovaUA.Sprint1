@@ -9,9 +9,22 @@ namespace Tyuiu.GluhovaUA.Sprint1.Task6.V9.Lib
 {
     public class DataService : ISprint1Task6V9
     {
+        
+
         public string MoveLetterToStart(string value)
         {
-            return value[value.Length - 1]+ value.Substring(0,value.Length-1);
+
+            string[] f = value.Split(' ');
+
+
+            for (int i = 0; i < f.Length; i++)
+            {
+                if (f[i].Length > 0)
+                {
+                    f[i] = f[i][f[i].Length - 1] + f[i].Substring(0, f[i].Length - 1);
+                }
+            }
+            return string.Join(" ", f);
         }
     }
 }
