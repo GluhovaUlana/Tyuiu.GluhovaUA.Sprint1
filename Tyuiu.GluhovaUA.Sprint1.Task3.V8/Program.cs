@@ -38,7 +38,7 @@ namespace Tyuiu.GluhovaUA.Sprint1.Task3.V8
             Console.WriteLine("Срок вклада (дней): " + z);
 
             double r=x*(y/100.0)*(z/365.0);
-            Console.WriteLine("Доход: " + Math.Round(r,3));
+            Console.WriteLine("Доход: " + Math.Round(r,2));
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
