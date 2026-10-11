@@ -10,8 +10,8 @@ namespace Tyuiu.GluhovaUA.Sprint1.Task3.V8.Lib
     {
         public double IncomeAmount(double startAmount, double percent, double timeDays)
         {
-            double result = (startAmount * (percent/100.0) * (timeDays/365.0))+ startAmount;
-            return Math.Round(result, 3);
+            return Math.Round((startAmount * (percent/100.0) * (timeDays/365.0)),1)+ startAmount;
+           
         }
     }
 }
